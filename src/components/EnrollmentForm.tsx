@@ -11,12 +11,11 @@ const NPA_EVENTO_ID = "be2f9587-d2ce-4bf2-9732-3184c7c3a2c4";
 // TODO: preencher assim que o checkout (Mercado Pago) e a planilha (Google Apps
 // Script) desse evento existirem. Ate la o botao de inscricao fica desabilitado.
 const EVENTO = {
-  label: "05/09",
-  data: "05 de Setembro",
+  label: "19/09",
+  data: "19 de Setembro",
   diaSemana: "Sabado",
   horario: "09:00 as 17:00",
-  endereco: "Coworking 949 - Rua General Osório, 2239 - Campinas-SP",
-  sheetUrl: "",
+  endereco: "R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR",
   checkoutUrl: "",
 };
 
@@ -79,25 +78,6 @@ export const EnrollmentForm = () => {
 
       const urlParams = new URLSearchParams(window.location.search);
 
-      if (EVENTO.sheetUrl) {
-        const sheetParams = new FormData();
-        sheetParams.append("name", name.trim());
-        sheetParams.append("phone", phoneToSend);
-        sheetParams.append("whatsapp", phoneToSend);
-        sheetParams.append("turma", "unica");
-        sheetParams.append("utm_source", urlParams.get("utm_source") || "");
-        sheetParams.append("utm_medium", urlParams.get("utm_medium") || "");
-        sheetParams.append("utm_campaign", urlParams.get("utm_campaign") || "");
-        sheetParams.append("utm_content", urlParams.get("utm_content") || "");
-        sheetParams.append("utm_term", urlParams.get("utm_term") || "");
-
-        await fetch(EVENTO.sheetUrl, {
-          method: "POST",
-          body: sheetParams,
-          mode: "no-cors",
-        });
-      }
-
       // Insert direto com anon key esta bloqueado por um bug de RLS
       // (leitura funciona, escrita nao). Usamos uma Edge Function com
       // service role, mesmo padrao ja usado em outras functions do
@@ -113,7 +93,7 @@ export const EnrollmentForm = () => {
         }),
       }).catch((err) => console.error("Erro ao salvar no CRM:", err));
 
-      const eventId = `psi_lp_campinas_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
+      const eventId = `psi_lp_curitiba_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
       const { externalId, fbp, fbc } = MetaIdentity.getIdentity();
 
       MetaIdentity.saveUserData({
@@ -127,7 +107,7 @@ export const EnrollmentForm = () => {
           "track",
           "Lead",
           {
-            content_name: `Inscricao - IDM PSI Campinas ${EVENTO.label}`,
+            content_name: `Inscricao - IDM PSI Curitiba ${EVENTO.label}`,
             status: "pending",
           },
           {
@@ -156,7 +136,7 @@ export const EnrollmentForm = () => {
               lastName: name.split(" ").slice(1).join(" "),
             },
             customData: {
-              content_name: `Inscricao - IDM PSI Campinas ${EVENTO.label}`,
+              content_name: `Inscricao - IDM PSI Curitiba ${EVENTO.label}`,
               status: "pending",
             },
           }),
@@ -206,7 +186,7 @@ export const EnrollmentForm = () => {
             "track",
             "InitiateCheckout",
             {
-              content_name: `IDM Pelo Brasil de Psicanalise - Campinas ${EVENTO.label}`,
+              content_name: `IDM Pelo Brasil de Psicanalise - Curitiba ${EVENTO.label}`,
               content_type: "product",
               value: 37.9,
               currency: "BRL",
@@ -235,7 +215,7 @@ export const EnrollmentForm = () => {
               phone: phoneToSend,
             },
             customData: {
-              content_name: `IDM Pelo Brasil de Psicanalise - Campinas ${EVENTO.label}`,
+              content_name: `IDM Pelo Brasil de Psicanalise - Curitiba ${EVENTO.label}`,
               content_type: "product",
               value: 37.9,
               currency: "BRL",

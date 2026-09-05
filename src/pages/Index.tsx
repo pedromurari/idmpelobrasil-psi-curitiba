@@ -41,7 +41,7 @@ const Index = () => {
             <h1 className="hero-headline">
               <span className="headline-line highlight text-center text-2xl md:text-4xl">
                 IDM Pelo Brasil de Psicanalise: Uma imersao presencial em
-                Campinas para quem quer aprender, vivenciar e aplicar a
+                Curitiba para quem quer aprender, vivenciar e aplicar a
                 psicanalise integrativa com clareza.
               </span>
             </h1>
@@ -58,7 +58,7 @@ const Index = () => {
             <div className="text-lg md:text-xl text-muted-foreground space-y-2 max-w-3xl mx-auto">
               <div className="bg-card/50 border-2 border-primary/40 rounded-xl p-4 mt-4 mb-2">
                 <p className="text-primary font-bold text-xl mb-2">
-                  05 de Setembro em Campinas - SP!
+                  19 de Setembro em Curitiba - PR!
                 </p>
                 <p className="font-semibold text-foreground text-base">
                   Vagas limitadas! Garanta sua vaga agora.
@@ -441,7 +441,7 @@ const Index = () => {
               <FAQItem
                 value="faq-4"
                 question="Quando e onde sera a imersao?"
-                answer="A imersao sera realizada no dia 05/09 (Sabado), das 09h as 17h, presencial no Coworking 949 - Rua General Osório, 2239 - Campinas-SP. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                answer="A imersao sera realizada no dia 19/09 (Sabado), das 09h as 17h, presencial na R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"
@@ -493,7 +493,7 @@ const Index = () => {
               WhatsApp: (11) 97537-9719
             </p>
             <p className="flex items-center justify-center gap-2">
-              Coworking 949 - Rua General Osório, 2239 - Campinas-SP
+              R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR
             </p>
           </div>
 

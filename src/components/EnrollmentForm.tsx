@@ -8,15 +8,13 @@ import { MetaIdentity } from "../utils/meta-identity";
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const NPA_EVENTO_ID = "be2f9587-d2ce-4bf2-9732-3184c7c3a2c4";
 
-// TODO: preencher assim que o checkout (Mercado Pago) e a planilha (Google Apps
-// Script) desse evento existirem. Ate la o botao de inscricao fica desabilitado.
 const EVENTO = {
   label: "19/09",
   data: "19 de Setembro",
   diaSemana: "Sabado",
   horario: "09:00 as 17:00",
   endereco: "R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR",
-  checkoutUrl: "",
+  checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD8U5",
 };
 
 export const EnrollmentForm = () => {

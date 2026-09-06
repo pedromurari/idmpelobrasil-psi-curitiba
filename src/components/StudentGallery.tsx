@@ -24,8 +24,14 @@ import novo6 from "@/assets/gallery-novas/novo6.jpeg";
 import novo7 from "@/assets/gallery-novas/novo7.jpeg";
 import novo8 from "@/assets/gallery-novas/novo8.jpeg";
 import novo9 from "@/assets/gallery-novas/novo9.jpeg";
+import novo10 from "@/assets/gallery-novas/novo10.jpeg";
+import novo11 from "@/assets/gallery-novas/novo11.jpeg";
+import novo12 from "@/assets/gallery-novas/novo12.jpeg";
 
 const photos = [
+  { src: novo10, alt: "Participante com certificado ao lado de Rodrygo Murari" },
+  { src: novo11, alt: "Turma completa com certificados" },
+  { src: novo12, alt: "Rodrygo Murari conduzindo a aula presencial" },
   { src: novo1, alt: "Participantes do ultimo evento presencial" },
   { src: novo2, alt: "Participantes do ultimo evento presencial" },
   { src: novo3, alt: "Participantes do ultimo evento presencial" },

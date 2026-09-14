@@ -40,14 +40,14 @@ const Index = () => {
           <div className="text-center mb-8 animate-fade-in">
             <h1 className="hero-headline">
               <span className="headline-line highlight text-center text-2xl md:text-4xl">
-                IDM Pelo Brasil de Psicanalise: Uma imersao presencial em
+                IDM Pelo Brasil de Psicanálise: Uma imersão presencial em
                 Curitiba para quem quer aprender, vivenciar e aplicar a
-                psicanalise integrativa com clareza.
+                psicanálise integrativa com clareza.
               </span>
             </h1>
             <h2 className="text-lg md:text-2xl text-muted-foreground mt-4 mb-2 font-semibold">
               Com Rodrygo Murari e Jocimara Anjos: Saia com ferramentas
-              praticas de autoconhecimento, certificado e material de apoio
+              práticas de autoconhecimento, certificado e material de apoio
               exclusivo para aplicar imediatamente.
             </h2>
 
@@ -66,7 +66,7 @@ const Index = () => {
               </div>
               <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base mt-4">
                 <span className="flex items-center gap-1">
-                  Certificado de conclusao
+                  Certificado de conclusão
                 </span>
                 <span className="flex items-center gap-1">
                   Material de apoio exclusivo
@@ -92,11 +92,11 @@ const Index = () => {
       <section className="md:py-8 relative z-10 px-[15px] py-[5px]">
         <div className="section-container section-highlight">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-            O QUE VOCE VAI DESCOBRIR NESTA IMERSAO PRESENCIAL
+            O QUE VOCÊ VAI DESCOBRIR NESTA IMERSÃO PRESENCIAL
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
-            Os 3 pilares do IDM Pelo Brasil de Psicanalise - conteudo pratico
-            que voce aplica no mesmo dia
+            Os 3 pilares do IDM Pelo Brasil de Psicanálise - conteúdo prático
+            que você aplica no mesmo dia
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -105,38 +105,38 @@ const Index = () => {
               title="O Despertar"
               subtitle="Entenda como sua mente realmente funciona"
               items={[
-                "Teoria do aparelho psiquico - entenda consciente, pre-consciente e inconsciente e como eles guiam suas decisoes",
-                "Teoria estrutural - descubra como id, ego e superego atuam por tras dos seus comportamentos",
-                "Portas para o inconsciente - aprenda a identificar os sinais que sua mente usa pra se comunicar com voce",
-                "Fundamentos da psicanalise integrativa - a base teorica aplicada de forma pratica e descomplicada",
+                "Teoria do aparelho psíquico - entenda consciente, pré-consciente e inconsciente e como eles guiam suas decisões",
+                "Teoria estrutural - descubra como id, ego e superego atuam por trás dos seus comportamentos",
+                "Portas para o inconsciente - aprenda a identificar os sinais que sua mente usa pra se comunicar com você",
+                "Fundamentos da psicanálise integrativa - a base teórica aplicada de forma prática e descomplicada",
               ]}
-              footer="A base teorica traduzida em linguagem simples e aplicavel"
+              footer="A base teórica traduzida em linguagem simples e aplicável"
             />
 
             <PillarCard
               icon="❤️"
               title="A Cura"
-              subtitle="Liberte-se de padroes que travam sua vida"
+              subtitle="Liberte-se de padrões que travam sua vida"
               items={[
-                "Herancas traumaticas - identifique o que voce carrega sem perceber e comece a se libertar",
+                "Heranças traumáticas - identifique o que você carrega sem perceber e comece a se libertar",
                 "Narcisismo - efeitos da falta e do excesso - entenda como isso molda relacionamentos e autoestima",
-                "Psicanalise aplicada a autoestima - ferramentas praticas pra fortalecer sua relacao consigo mesmo",
-                "Setting terapeutico na pratica - vivencie tecnicas reais usadas em atendimento",
+                "Psicanálise aplicada à autoestima - ferramentas práticas pra fortalecer sua relação consigo mesmo",
+                "Setting terapêutico na prática - vivencie técnicas reais usadas em atendimento",
               ]}
-              footer="Ferramentas praticas pra comecar sua propria transformacao"
+              footer="Ferramentas práticas pra começar sua própria transformação"
             />
 
             <PillarCard
               icon="👁️"
-              title="A Revelacao"
+              title="A Revelação"
               subtitle="Encare o que sua mente evita olhar de frente"
               items={[
-                "Pulsao de morte - compreenda esse conceito central e seu impacto no dia a dia",
+                "Pulsão de morte - compreenda esse conceito central e seu impacto no dia a dia",
                 "O efeito do estresse - como ele se instala na mente e no corpo, e o que fazer a respeito",
-                "Atos suicidas - acolhimento e compreensao psicanalitica de um tema urgente",
-                "Integracao final - una os 3 pilares em uma visao completa de si mesmo",
+                "Atos suicidas - acolhimento e compreensão psicanalítica de um tema urgente",
+                "Integração final - una os 3 pilares em uma visão completa de si mesmo",
               ]}
-              footer="Uma virada de chave na forma como voce entende a propria mente"
+              footer="Uma virada de chave na forma como você entende a própria mente"
             />
           </div>
         </div>
@@ -154,21 +154,21 @@ const Index = () => {
               />
             </div>
             <h2 className="md:text-4xl font-bold text-foreground mb-6 text-2xl">
-              QUEM ESTA POR TRAZ DESTE PROJETO?
+              QUEM ESTÁ POR TRÁS DESTE PROJETO?
             </h2>
             <div className="text-lg text-muted-foreground space-y-4 leading-relaxed">
               <p>
-                O Instituto DespertaMente e referencia em desenvolvimento
-                humano, integrando Psicanalise, PNL, Hipnose e Numerologia
-                Pitagorica Sistemica.
+                O Instituto DespertaMente é referência em desenvolvimento
+                humano, integrando Psicanálise, PNL, Hipnose e Numerologia
+                Pitagórica Sistêmica.
               </p>
               <p>
-                Nossa missao e clara: tornar o autoconhecimento acessivel
-                atraves de experiencias transformadoras, vivencias profundas e
-                formacoes de altissima qualidade.
+                Nossa missão é clara: tornar o autoconhecimento acessível
+                através de experiências transformadoras, vivências profundas e
+                formações de altíssima qualidade.
               </p>
               <p className="font-semibold text-primary text-xl price-shine">
-                Nao e apenas teoria. E transformacao real na vida de centenas de
+                Não é apenas teoria. É transformação real na vida de centenas de
                 participantes.
               </p>
             </div>
@@ -180,7 +180,7 @@ const Index = () => {
         <div className="section-container">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">
-              CONHECA SEUS PROFESSORES
+              CONHEÇA SEUS PROFESSORES
             </h2>
 
             <div className="grid md:grid-cols-2 gap-12">
@@ -203,13 +203,13 @@ const Index = () => {
                   <p>
                     Com mais de{" "}
                     <span className="text-primary font-bold">5.000 HORAS</span>{" "}
-                    de atendimentos somados em setting terapeutico,
-                    experiencias, treinamentos e mentorias, Rodrygo Murari e
-                    especialista em Metafisica Comportamental e PNL Sistemica.
+                    de atendimentos somados em setting terapêutico,
+                    experiências, treinamentos e mentorias, Rodrygo Murari é
+                    especialista em Metafísica Comportamental e PNL Sistêmica.
                   </p>
-                  <p>Seu proposito? Levar uma "Psicanalise Descomplicada".</p>
+                  <p>Seu propósito? Levar uma "Psicanálise Descomplicada".</p>
                   <p>
-                    Sua abordagem revolucionaria da Psicanalise Integrativa tem
+                    Sua abordagem revolucionária da Psicanálise Integrativa tem
                     transformado a vida de centenas de pessoas no Brasil e na
                     Europa.
                   </p>
@@ -233,18 +233,18 @@ const Index = () => {
                 </div>
                 <div className="text-muted-foreground space-y-4 leading-relaxed mt-4">
                   <p>
-                    Especialista em Luto e Depressao, sua abordagem
-                    psicanalitica vem carregada de sutileza e mudancas
-                    incriveis no setting terapeutico.
+                    Especialista em Luto e Depressão, sua abordagem
+                    psicanalítica vem carregada de sutileza e mudanças
+                    incríveis no setting terapêutico.
                   </p>
                   <p>
-                    Tambem e Master Coach com foco em analise comportamental e
+                    Também é Master Coach com foco em análise comportamental e
                     Practitioner em PNL.
                   </p>
                   <p>
                     Com mais de{" "}
                     <span className="text-primary font-bold">1.000 HORAS</span>{" "}
-                    focadas no empoderamento feminino, leva a serio como a
+                    focadas no empoderamento feminino, leva a sério como a
                     mulher psicanalista deve ter resultados impressionantes a
                     partir do trabalho profissional.
                   </p>
@@ -254,7 +254,7 @@ const Index = () => {
 
             <div className="flex flex-wrap justify-center gap-4 pt-8">
               <span className="flex items-center gap-2 text-primary">
-                Experiencia comprovada
+                Experiência comprovada
               </span>
               <span className="flex items-center gap-2 text-primary">
                 Metodologia exclusiva
@@ -271,33 +271,33 @@ const Index = () => {
         <div className="section-container section-highlight">
           <div className="max-w-4xl mx-auto">
             <h2 className="md:text-4xl font-bold text-center text-foreground mb-8 text-2xl">
-              POR QUE UMA IMERSAO PRESENCIAL TAO ACESSIVEL?
+              POR QUE UMA IMERSÃO PRESENCIAL TÃO ACESSÍVEL?
             </h2>
             <div className="text-lg text-muted-foreground space-y-4 leading-relaxed mb-8">
               <p className="text-center">
-                Voce deve estar se perguntando: "Como uma imersao presencial de
+                Você deve estar se perguntando: "Como uma imersão presencial de
                 um dia inteiro, com certificado, pode custar apenas R$37,90?"
               </p>
               <p className="font-semibold text-primary text-xl text-center">
-                A resposta e simples: nossa missao e democratizar o
+                A resposta é simples: nossa missão é democratizar o
                 autoconhecimento.
               </p>
               <p className="text-center font-semibold text-foreground">
-                Este nao e um encontro online generico. E uma imersao
-                presencial, com a profundidade e a interacao que so o contato
+                Este não é um encontro online genérico. É uma imersão
+                presencial, com a profundidade e a interação que só o contato
                 direto pode oferecer.
               </p>
               <p className="text-center">
-                Queremos que VOCE tenha acesso a ferramentas poderosas de
-                transformacao, independente da sua situacao financeira.
+                Queremos que VOCÊ tenha acesso a ferramentas poderosas de
+                transformação, independente da sua situação financeira.
               </p>
               <p className="text-center">
-                O investimento simbolico de R$37,90 garante seu compromisso e
-                nossa capacidade de organizar o melhor evento possivel.
+                O investimento simbólico de R$37,90 garante seu compromisso e
+                nossa capacidade de organizar o melhor evento possível.
               </p>
               <p className="text-center text-primary font-bold">
-                Aproveite: a proxima turma sera pelo valor integral. Esta e uma
-                oportunidade unica.
+                Aproveite: a próxima turma será pelo valor integral. Esta é uma
+                oportunidade única.
               </p>
             </div>
 
@@ -305,7 +305,7 @@ const Index = () => {
               <div className="flex justify-center gap-8 mb-6 flex-wrap">
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">
-                    Valor real da experiencia:
+                    Valor real da experiência:
                   </p>
                   <p className="text-3xl font-bold line-through text-muted-foreground">
                     R$ 497
@@ -323,24 +323,24 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-2xl font-bold price-shine">
-                Sim, voce esta economizando 92%!
+                Sim, você está economizando 92%!
               </p>
             </div>
 
             <div className="mt-8 bg-card/50 border border-primary/30 rounded-xl p-6">
               <h3 className="text-2xl font-bold text-center text-primary mb-6">
-                O QUE ESTA INCLUSO:
+                O QUE ESTÁ INCLUSO:
               </h3>
               <div className="grid md:grid-cols-2 gap-3 text-muted-foreground">
                 {[
-                  "Imersao presencial completa (8 horas)",
-                  "Certificado de conclusao reconhecido",
+                  "Imersão presencial completa (8 horas)",
+                  "Certificado de conclusão reconhecido",
                   "Material de apoio exclusivo",
-                  "Ferramentas praticas de autoconhecimento aplicadas na hora",
-                  "Cafe e networking",
+                  "Ferramentas práticas de autoconhecimento aplicadas na hora",
+                  "Café e networking",
                   "Suporte durante o evento",
                   "Acesso ao grupo exclusivo de participantes",
-                  "Bonus surpresa no dia",
+                  "Bônus surpresa no dia",
                 ].map((item, index) => (
                   <p key={index} className="flex items-center gap-2">
                     {item}
@@ -358,33 +358,33 @@ const Index = () => {
       <section className="py-6 md:py-8 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            ULTIMAS VAGAS DISPONIVEIS!
+            ÚLTIMAS VAGAS DISPONÍVEIS!
           </h2>
           <p className="text-xl text-primary font-semibold mb-8">
-            Nao perca esta oportunidade unica - proxima turma pelo valor
+            Não perca esta oportunidade única - próxima turma pelo valor
             integral
           </p>
           <div className="text-lg text-muted-foreground space-y-4 mb-8 leading-relaxed">
-            <p>Esta e uma imersao presencial com vagas limitadas.</p>
+            <p>Esta é uma imersão presencial com vagas limitadas.</p>
             <p>
-              Quando acabarem as vagas, nao havera mais oportunidade de
+              Quando acabarem as vagas, não haverá mais oportunidade de
               participar nesta turma por esse valor promocional.
             </p>
-            <p>A proxima turma (se houver) sera pelo valor integral de R$ 497.</p>
+            <p>A próxima turma (se houver) será pelo valor integral de R$ 497.</p>
             <div className="py-6 space-y-2">
               <p className="font-semibold text-primary text-xl">
-                Voce esta a apenas 1 clique de transformar sua visao
+                Você está a apenas 1 clique de transformar sua visão
               </p>
               <p className="font-semibold text-primary text-xl">
-                Sao apenas R$37,90 - menos que um almoco
+                São apenas R$37,90 - menos que um almoço
               </p>
               <p className="font-semibold text-primary text-xl">
                 Risco zero e retorno infinito
               </p>
             </div>
             <p className="text-xl">
-              A escolha e sua: continuar sem respostas ou descobrir seu
-              verdadeiro proposito.
+              A escolha é sua: continuar sem respostas ou descobrir seu
+              verdadeiro propósito.
             </p>
           </div>
 
@@ -396,17 +396,17 @@ const Index = () => {
             }}
           >
             <button className="w-full max-w-md mx-auto h-auto py-4 px-6 text-lg md:text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-2xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105">
-              Ultimas Vagas: Garanta Sua Imersao Presencial por R$37,90!
+              Últimas Vagas: Garanta Sua Imersão Presencial por R$37,90!
             </button>
           </a>
 
           <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm text-muted-foreground">
             <p className="flex items-center gap-2">
-              + de 500 participantes ja viveram esta experiencia
+              + de 500 participantes já viveram esta experiência
             </p>
-            <p className="flex items-center gap-2">98% de taxa de satisfacao</p>
+            <p className="flex items-center gap-2">98% de taxa de satisfação</p>
             <p className="flex items-center gap-2">
-              Metodologia comprovada ha mais de 10 anos
+              Metodologia comprovada há mais de 10 anos
             </p>
           </div>
         </div>
@@ -419,49 +419,49 @@ const Index = () => {
               PERGUNTAS FREQUENTES
             </h2>
             <p className="text-center text-muted-foreground mb-12 text-xl">
-              Tire Suas Duvidas Antes de Garantir Sua Vaga
+              Tire Suas Dúvidas Antes de Garantir Sua Vaga
             </p>
 
             <Accordion type="single" collapsible className="space-y-4">
               <FAQItem
                 value="faq-1"
-                question="Nunca estudei psicanalise. Esta imersao e para mim?"
-                answer="SIM! Este encontro foi desenvolvido especialmente para iniciantes. Voce nao precisa de conhecimento previo. Vamos comecar do zero e voce saira do evento com ferramentas praticas de autoconhecimento ja prontas pra aplicar."
+                question="Nunca estudei psicanálise. Esta imersão é para mim?"
+                answer="SIM! Este encontro foi desenvolvido especialmente para iniciantes. Você não precisa de conhecimento prévio. Vamos começar do zero e você sairá do evento com ferramentas práticas de autoconhecimento já prontas pra aplicar."
               />
               <FAQItem
                 value="faq-2"
-                question="Por que apenas R$37,90? Qual e a pegadinha?"
-                answer="Nao ha pegadinha! Nossa missao e democratizar o autoconhecimento. O valor simbolico garante seu compromisso com a experiencia e cobre custos basicos de material. Queremos que o maximo de pessoas possam ter acesso a essa transformacao."
+                question="Por que apenas R$37,90? Qual é a pegadinha?"
+                answer="Não há pegadinha! Nossa missão é democratizar o autoconhecimento. O valor simbólico garante seu compromisso com a experiência e cobre custos básicos de material. Queremos que o máximo de pessoas possam ter acesso a essa transformação."
               />
               <FAQItem
                 value="faq-3"
-                question="O certificado e reconhecido?"
-                answer="Sim! Voce recebera um certificado de conclusao emitido pelo Instituto DespertaMente, valido como comprovacao de participacao e aprendizado em Psicanalise Integrativa."
+                question="O certificado é reconhecido?"
+                answer="Sim! Você receberá um certificado de conclusão emitido pelo Instituto DespertaMente, válido como comprovação de participação e aprendizado em Psicanálise Integrativa."
               />
               <FAQItem
                 value="faq-4"
-                question="Quando e onde sera a imersao?"
-                answer="A imersao sera realizada no dia 19/09 (Sabado), das 09h as 17h, presencial na R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                question="Quando e onde será a imersão?"
+                answer="A imersão será realizada no dia 19/09 (Sábado), das 09h às 17h, presencial na R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR. As informações detalhadas serão enviadas imediatamente após sua inscrição, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"
-                question="E se eu nao puder comparecer depois de pagar?"
-                answer="Entre em contato conosco com 48h de antecedencia. Avaliaremos a possibilidade de transferir sua vaga para a proxima turma ou realizar o reembolso integral."
+                question="E se eu não puder comparecer depois de pagar?"
+                answer="Entre em contato conosco com 48h de antecedência. Avaliaremos a possibilidade de transferir sua vaga para a próxima turma ou realizar o reembolso integral."
               />
               <FAQItem
                 value="faq-6"
                 question="Preciso levar algum material?"
-                answer="Nao! Todo material didatico esta incluso. Voce so precisa levar voce mesmo, com mente aberta e vontade de aprender. Recomendamos trazer uma garrafa de agua e um caderno extra se quiser fazer anotacoes pessoais."
+                answer="Não! Todo material didático está incluso. Você só precisa levar você mesmo, com mente aberta e vontade de aprender. Recomendamos trazer uma garrafa de água e um caderno extra se quiser fazer anotações pessoais."
               />
               <FAQItem
                 value="faq-7"
-                question="Vou conseguir aplicar as ferramentas de psicanalise depois do encontro?"
-                answer="COM CERTEZA! A imersao e 100% pratica. Voce vai vivenciar as tecnicas durante o evento e saira de la com ferramentas reais de autoconhecimento pra aplicar no seu dia a dia."
+                question="Vou conseguir aplicar as ferramentas de psicanálise depois do encontro?"
+                answer="COM CERTEZA! A imersão é 100% prática. Você vai vivenciar as técnicas durante o evento e sairá de lá com ferramentas reais de autoconhecimento pra aplicar no seu dia a dia."
               />
               <FAQItem
                 value="faq-8"
-                question="O pagamento e seguro?"
-                answer="Absolutamente! Utilizamos uma plataforma de pagamento segura. Seus dados estao 100% protegidos e voce recebera confirmacao imediata do pagamento."
+                question="O pagamento é seguro?"
+                answer="Absolutamente! Utilizamos uma plataforma de pagamento segura. Seus dados estão 100% protegidos e você receberá confirmação imediata do pagamento."
               />
             </Accordion>
           </div>
@@ -482,7 +482,7 @@ const Index = () => {
             Instituto DespertaMente
           </p>
           <p className="text-muted-foreground">
-            Transformando vidas atraves do autoconhecimento
+            Transformando vidas através do autoconhecimento
           </p>
 
           <div className="space-y-2 text-muted-foreground">

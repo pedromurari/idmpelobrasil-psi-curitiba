@@ -11,8 +11,8 @@ const NPA_EVENTO_ID = "be2f9587-d2ce-4bf2-9732-3184c7c3a2c4";
 const EVENTO = {
   label: "19/09",
   data: "19 de Setembro",
-  diaSemana: "Sabado",
-  horario: "09:00 as 17:00",
+  diaSemana: "Sábado",
+  horario: "09:00 às 17:00",
   endereco: "R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba-PR",
   checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD8U5",
 };
@@ -43,8 +43,8 @@ export const EnrollmentForm = () => {
   const validateForm = () => {
     if (name.trim().length < 3) {
       toast({
-        title: "Nome invalido",
-        description: "Por favor, digite seu nome completo (minimo 3 caracteres)",
+        title: "Nome inválido",
+        description: "Por favor, digite seu nome completo (mínimo 3 caracteres)",
         variant: "destructive",
       });
       return false;
@@ -52,8 +52,8 @@ export const EnrollmentForm = () => {
     const numbers = whatsapp.replace(/\D/g, "");
     if (numbers.length < 10 || numbers.length > 11) {
       toast({
-        title: "WhatsApp invalido",
-        description: "Por favor, digite um numero valido com DDD",
+        title: "WhatsApp inválido",
+        description: "Por favor, digite um número válido com DDD",
         variant: "destructive",
       });
       return false;
@@ -77,7 +77,7 @@ export const EnrollmentForm = () => {
       const urlParams = new URLSearchParams(window.location.search);
 
       // Insert direto com anon key esta bloqueado por um bug de RLS
-      // (leitura funciona, escrita nao). Usamos uma Edge Function com
+      // (leitura funciona, escrita não). Usamos uma Edge Function com
       // service role, mesmo padrao ja usado em outras functions do
       // projeto (webhook-leads, lead-event), pra contornar isso.
       fetch(`${SUPABASE_URL}/functions/v1/npa-lead-create`, {
@@ -87,7 +87,7 @@ export const EnrollmentForm = () => {
           npa_evento_id: NPA_EVENTO_ID,
           nome: name.trim(),
           whatsapp: phoneToSend,
-          turma: "unica",
+          turma: "única",
         }),
       }).catch((err) => console.error("Erro ao salvar no CRM:", err));
 
@@ -105,7 +105,7 @@ export const EnrollmentForm = () => {
           "track",
           "Lead",
           {
-            content_name: `Inscricao - IDM PSI Curitiba ${EVENTO.label}`,
+            content_name: `Inscrição - IDM PSI Curitiba ${EVENTO.label}`,
             status: "pending",
           },
           {
@@ -134,7 +134,7 @@ export const EnrollmentForm = () => {
               lastName: name.split(" ").slice(1).join(" "),
             },
             customData: {
-              content_name: `Inscricao - IDM PSI Curitiba ${EVENTO.label}`,
+              content_name: `Inscrição - IDM PSI Curitiba ${EVENTO.label}`,
               status: "pending",
             },
           }),
@@ -148,7 +148,7 @@ export const EnrollmentForm = () => {
         setIsLoading(false);
         toast({
           title: "Interesse registrado!",
-          description: "Assim que o checkout abrir, avisamos voce pelo WhatsApp.",
+          description: "Assim que o checkout abrir, avisamos você pelo WhatsApp.",
         });
         return;
       }
@@ -184,7 +184,7 @@ export const EnrollmentForm = () => {
             "track",
             "InitiateCheckout",
             {
-              content_name: `IDM Pelo Brasil de Psicanalise - Curitiba ${EVENTO.label}`,
+              content_name: `IDM Pelo Brasil de Psicanálise - Curitiba ${EVENTO.label}`,
               content_type: "product",
               value: 37.9,
               currency: "BRL",
@@ -213,7 +213,7 @@ export const EnrollmentForm = () => {
               phone: phoneToSend,
             },
             customData: {
-              content_name: `IDM Pelo Brasil de Psicanalise - Curitiba ${EVENTO.label}`,
+              content_name: `IDM Pelo Brasil de Psicanálise - Curitiba ${EVENTO.label}`,
               content_type: "product",
               value: 37.9,
               currency: "BRL",
@@ -227,7 +227,7 @@ export const EnrollmentForm = () => {
       console.error("Error:", error);
       toast({
         title: "Erro ao enviar dados",
-        description: "Por favor, tente novamente ou entre em contato via WhatsApp",
+        description: "Por favor, tente novamente ou entre em contato via WhatsApp.",
         variant: "destructive",
       });
       setIsLoading(false);
@@ -241,7 +241,7 @@ export const EnrollmentForm = () => {
     >
       <div className="text-center mb-6">
         <h3 className="md:text-3xl font-bold text-foreground mb-2 text-3xl">
-          SIM! Quero minha vaga no IDM Pelo Brasil de Psicanalise!
+          SIM! Quero minha vaga no IDM Pelo Brasil de Psicanálise!
         </h3>
         <p className="text-muted-foreground text-lg">
           Garanta sua vaga agora e comece sua jornada de autodescoberta!
@@ -301,7 +301,7 @@ export const EnrollmentForm = () => {
                 </span>
               </div>
               <p className="text-sm text-muted-foreground mt-1">
-                Imersao de dia inteiro: {EVENTO.horario}
+                Imersão de dia inteiro: {EVENTO.horario}
               </p>
               <p className="text-xs mt-1 flex items-center gap-1 text-muted-foreground">
                 <MapPin className="h-3 w-3" />
@@ -327,9 +327,9 @@ export const EnrollmentForm = () => {
               Processando...
             </>
           ) : submitted ? (
-            <>Inscricao em breve - voce sera avisado!</>
+            <>Inscrição em breve - você será avisado!</>
           ) : inscricaoAtiva ? (
-            <>Ultimas Vagas: Garanta Sua Imersao por R$37,90!</>
+            <>Últimas Vagas: Garanta Sua Imersão por R$37,90!</>
           ) : (
             <>Quero ser avisado quando abrir - Em breve</>
           )}
@@ -337,10 +337,10 @@ export const EnrollmentForm = () => {
 
         <div className="flex flex-col gap-2 text-center text-sm text-muted-foreground">
           <p className="flex items-center justify-center gap-1">
-            Ultimas vagas disponiveis!
+            Últimas vagas disponíveis!
           </p>
           <p className="flex items-center justify-center gap-1">
-            Seus dados estao 100% seguros
+            Seus dados estão 100% seguros
           </p>
           <p className="flex items-center justify-center gap-1">
             Pagamento seguro via Mercado Pago
